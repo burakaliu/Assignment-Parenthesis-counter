@@ -21,6 +21,7 @@ public class Main {
                     stack.pop();
                 }else{
                     System.out.println("too many )");
+                    System.exit(0);
                 }
             }
         }
